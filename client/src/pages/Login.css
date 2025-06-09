@@ -1,0 +1,72 @@
+@import './Home.css';
+
+.login-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.login-form {
+  background-color: #191930;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+.login-form h2 {
+  color: #ededed;
+  margin-bottom: 20px;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #33334d;
+  background-color: #23234a;
+  color: #ededed;
+}
+
+.login-form input::placeholder {
+  color: #b0b0b0;
+}
+
+.login-form button {
+  padding: 12px 20px;
+  background-color: #222244;
+  color: #ededed;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+
+.login-form button:hover {
+  background-color: #111184;
+}
+
+.login-link {
+  margin-top: 15px;
+  font-size: 0.95rem;
+  color: #bbb;
+}
+
+.login-link a {
+  color: #4fc3f7;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+
+.login-link a:hover {
+  color: #1eaaff;
+  text-decoration: underline;
+}
