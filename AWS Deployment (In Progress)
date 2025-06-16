@@ -1,0 +1,52 @@
+# MERN Auth & Profile App
+
+This is a full-stack MERN application that includes 
+**user registration, login (JWT-based)**, **protected routes**, and **profile updates with image upload** using Multer. 
+The frontend is built with **React + Vite** and connects to an **Express + MongoDB backend**.
+
+---
+
+## 🔧 Tech Stack
+
+### Backend
+- Node.js + Express
+- MongoDB + Mongoose
+- JWT (Authentication)
+- Bcrypt.js (Password Hashing)
+- Multer (Image Upload)
+
+### Frontend
+- React (Vite)
+- Axios
+- React Router DOM
+- LocalStorage for JWT
+
+---
+
+## 🚀 Features
+
+- ✅ Register and login users with JWT auth
+- ✅ Protect private routes using middleware
+- ✅ Update profile: username & image upload (.jpg/.png only)
+- ✅ Validate input and handle errors globally
+- ✅ Responsive frontend with form validation
+- ✅ Connects frontend to backend via `VITE_BASE_URL`
+
+---
+
+## 🔑 API Endpoints (Backend)
+
+| Method | Endpoint              | Description                    |
+|--------|------------------------|--------------------------------|
+| POST   | `/api/register`        | Register new user              |
+| POST   | `/api/login`           | Login and get JWT token        |
+| GET    | `/api/protected`       | Get authenticated user profile |
+| PUT    | `/api/update-profile`  | Update username or image       |
+
+---
+
+## 🚀 Deployment
+
+I'm currently in the process of deploying this project on AWS as part of my learning journey. 
+This helps me strengthen my cloud skills while hosting a real-world MERN stack application.
+
